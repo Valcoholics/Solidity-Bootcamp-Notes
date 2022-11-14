@@ -36,5 +36,7 @@ ITreasury.sol is used to borrow bulky admin functions like “assign token” an
 
 #### Why this would be used any why one may want to implement it: 
 
+This interface is a toolbox specifically for the ERC721Vote.sol contract updated by ZORA where NFTs can import IERC721vote.sol getter/setter functions for voting as well as delegation functions. With the nouns protocol, there is an endless number of NFTs that can be created, all of which must be votable at some level, but it would be inconvenient to include "getVotes" and "delegateBySig" within each and every unique NFT contract. Someone would use this to give their ERC721s voting abilities. 
+
 ## Demonstration: Your own contract, however rudimentary you choose, alongside an interface that it inherits from
 
