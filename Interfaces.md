@@ -10,7 +10,7 @@ Goal: Identify two instances of interfaces being used and summarize respectively
 ### Interfaces 
 - fall within the abstraction pillar, and data abstraction is the process of hiding certain details and showing only essential information to the user.  The user will have the information on what the object does, instead of how it does it.
 
-Interfaces are created using <interface> keyword. Following are the key characteristics of an interface.
+Interfaces are created using `interface` keyword. Following are the key characteristics of an interface.
 * Interface can not have any function with implementation.
 * Functions of an interface can be only of type external.
 * Interface can not have constructor.
