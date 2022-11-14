@@ -30,7 +30,7 @@ Primarily used to whenever you need to guide the programmer or, make a contract 
 [Aragon Protocol ITreasury.sol](https://github.com/aragon/protocol/blob/e64e2dd9ef8715ef6a2c4ee9195e0c14bf62e84c/packages/evm/contracts/treasury/ITreasury.sol)
 
 #### Why this would be used and why one may to implement it:
-ITreasury.sol is used to borrow bulky admin functions like “assign token” and “withdraw tokens” which someone can assume will be used multiple times during they life of their project. This interface serves the developer in ways where this can me used for any feature within the protocol where there is an address they need to withdraw or assign funds, this helps because they don’t have to redo this functions directly in each instance of a “treasury.”
+ITreasury.sol is used to borrow bulky admin functions like “assign token” and “withdraw tokens” which someone can assume will be used multiple times during they life of their project. This interface serves the developer in ways where this can me used for any feature within the protocol where there is an address they need to withdraw or assign funds, this helps because they don’t have to redo this functions directly in each instance of a `Treasury`.
 
 [Nouns Protocol IERC721Votes.sol](https://github.com/ourzora/nouns-protocol/blob/main/src/lib/interfaces/IERC721Votes.sol)
 
