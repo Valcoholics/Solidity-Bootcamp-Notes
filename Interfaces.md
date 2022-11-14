@@ -40,5 +40,5 @@ This interface is a toolbox specifically for the ERC721Vote.sol contract updated
 
 ## Demonstration: Your own contract, however rudimentary you choose, alongside an interface that it inherits from
 
-[Demonstration Interface](https://github.com/Valcoholics/Solidity-Bootcamp-Notes/blob/main/Demonstration-Interface.sol)
+[Demonstration](https://github.com/Valcoholics/Solidity-Bootcamp-Notes/blob/main/Demonstration.sol)
 
